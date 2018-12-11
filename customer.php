@@ -4,5 +4,6 @@
 
 	$customer = new Customer();
 
-	$customer->validar('Danillo','d@h.com');
+	$customer->validar('Danillo','danillo_10_@hotmail.com');
+	// $customer->nome = "Modificou o atributo Nome";
 	$customer->exibir();
