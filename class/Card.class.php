@@ -55,7 +55,7 @@ class Card{
 		if($this->getStatus() == 'Cartão Ativado'):
 			if($this->getSaldo() >= $v):
 				$this->setSaldo($this->getSaldo() - $v);
-				$this->setMsg('Compra no valor de R$ '.$v.' efetuada com sucesso!');
+				$this->setMsg('Compra no valor de R$ '.$v.' efetuada com sucesso!')."<br>";
 			else:
 				$this->setMsg('Saldo Insuficiente!');
 			endif;

@@ -9,5 +9,5 @@
 	$order->desativarCartao();
 	$order->comprar(3000);
 	$order->ativarCartao();
-	$order->comprar(2000);
+	$order->comprar(100);
 	echo $order->getMsg()."<br>";
